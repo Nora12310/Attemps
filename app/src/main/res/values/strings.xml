@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="msg_lock_confirmed_otp">Tài khoản của bạn đã nhập sai quá 3 lần nên hệ thống tạm khoá trong &lt;font
+        color=\'#FA7268\'&gt;&lt;u&gt;%ds&lt;/u&gt;&lt;/font&gt;
+    </string>
+    <string name="ingredients">Igredients</string>
+</resources>

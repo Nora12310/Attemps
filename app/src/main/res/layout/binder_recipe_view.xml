@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:background="@color/md_white_1000"
+    app:cardElevation="0dp"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@color/md_white_1000"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_20ssp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pumpkin_soup" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_black"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:text="Pumpkin Soup"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Heat oil in a large saucepan over low heat, add onion and leek and cook for 2-3 minutes, until softened but not coloured. Add garlic and spices and cook, stirring, for 30 seconds. Add pumpkin, potato and stock and bring to the boil."
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_10ssp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
