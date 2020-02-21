@@ -14,11 +14,19 @@
         android:textColor="@color/md_black_1000"
         android:textSize="@dimen/_13ssp" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        tools:itemCount="5"
-        tools:listitem="@layout/binder_ingredient_view"
-        android:layout_height="wrap_content" />
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recycler_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        tools:itemCount="5"-->
+<!--        tools:listitem="@layout/binder_ingredient_view"-->
+<!--        android:layout_height="wrap_content" />-->
+
+
+    <include layout="@layout/binder_ingredient_view"/>
+    <include layout="@layout/binder_ingredient_view"/>
+    <include layout="@layout/binder_ingredient_view"/>
+    <include layout="@layout/binder_ingredient_view"/>
+    <include layout="@layout/binder_ingredient_view"/>
+    <include layout="@layout/binder_ingredient_view"/>
 
 </LinearLayout>
